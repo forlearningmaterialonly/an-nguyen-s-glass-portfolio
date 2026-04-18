@@ -62,10 +62,10 @@ const Hero = () => {
             View my work
           </a>
           <a
-            href="#contact"
+            href="https://drive.google.com/uc?export=download&id=11lcEeFyM6gcjLSLR2dOJYDhwZPmFIlTM"
             className="glass rounded-full px-6 py-3 text-sm font-medium text-foreground transition-colors hover:bg-white/5"
           >
-            Contact me
+            Download Resume
           </a>
         </motion.div>
 
