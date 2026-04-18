@@ -25,7 +25,7 @@ const Navbar = () => {
     <motion.header
       initial={{ y: -40, opacity: 0 }}
       animate={{ y: 0, opacity: 1 }}
-      transition={{ duration: 0.6, ease: [0.19, 1, 0.22, 1] }}
+      transition={{ duration: 0.6, ease: [0.19, 1, 0.22, 1] as const }}
       className="fixed inset-x-0 top-0 z-50 px-4 pt-4"
     >
       <nav
